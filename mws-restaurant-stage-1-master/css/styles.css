@@ -17,7 +17,7 @@ body {
     background-color: #fdfdfd;
     margin: 0;
     position: relative;
-    max-width: 1200px;
+    max-width: 100%;
     /*defines the boundary to which the page can extends to */
     margin-left: auto;
     /*to properly center the page*/
@@ -229,6 +229,12 @@ nav h1 a {
 @media only screen and (min-width:0px) {
     #restaurants-list li {
         max-width: 100%;
+    }
+}
+
+@media only screen and (max-width:475px) {
+    header h1 {
+        padding-top: 5px;
     }
 }
 
